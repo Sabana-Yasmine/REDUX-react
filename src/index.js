@@ -7,10 +7,11 @@ import reportWebVitals from './reportWebVitals';
 import { configureStore } from '@reduxjs/toolkit';
 import { Provider } from 'react-redux';
 import  UserReducer from './features/user';
-
+import prodReducer from './features/Product'
 const store = configureStore({
   reducer:{
-    user : UserReducer
+    user : UserReducer,
+    prod : prodReducer
   }
 })
 
