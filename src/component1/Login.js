@@ -14,7 +14,7 @@ function Login() {
             <input type ="color" onChange={(data)=>fun(data.target.value)}/>
             <button onClick={()=> 
             dispatch(login({
-                name : 'sabana',
+                name : name,
                 age : 10,
                 email : 'safa@gmail.com'
             

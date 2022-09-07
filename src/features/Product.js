@@ -2,15 +2,15 @@
 import { createSlice} from "@reduxjs/toolkit"
 
 export const prodSlice =createSlice({
-    name : "product",
+    name : "prod",
     initialstate : {value:{
         name :'',
         price : '',
         quantity :''
     }},
     reducers : {
-        add : (sate,action)=>{
-            sate.vale = action.payload;
+        add : (state,action)=>{
+            state.vale = action.payload;
         }
     }
 })

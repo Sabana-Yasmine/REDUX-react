@@ -14,9 +14,9 @@ function Add() {
             <input type ="text" onChange={(data)=>fun(data.target.value)}/>
             <button onClick={()=> 
             dispatch(add({
-                name : 'name',
-                price : 10,
-                quantity : 'safa@gmail.com'
+                name : name,
+                price : '100',
+                quantity : '5'
             
             }))}>Add</button>
             </div>
